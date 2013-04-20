@@ -1,0 +1,14 @@
+//
+//  LocalStandardMap.h
+//  OriginalMapScaffold
+//
+//  Created by honjo2 on 2013/04/20.
+//  Copyright (c) 2013年 honjo2. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <MapionMaps/MapionMaps.h>
+
+@interface LocalStandardMap : MMAbstractEPSG900913Map
+
+@end

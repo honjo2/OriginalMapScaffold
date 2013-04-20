@@ -24,6 +24,12 @@
 		AE11B85C172296EA00774CA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE11B834172296EA00774CA8 /* Foundation.framework */; };
 		AE11B864172296EA00774CA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE11B862172296EA00774CA8 /* InfoPlist.strings */; };
 		AE11B867172296EA00774CA8 /* OriginalMapScaffoldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE11B866172296EA00774CA8 /* OriginalMapScaffoldTests.m */; };
+		AE11B8911722BFC400774CA8 /* LocalStandardMap.m in Sources */ = {isa = PBXBuildFile; fileRef = AE11B8901722BFC400774CA8 /* LocalStandardMap.m */; };
+		AE11B8931722BFEE00774CA8 /* MapionMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE11B8921722BFEE00774CA8 /* MapionMaps.framework */; };
+		AE11B8951722C00000774CA8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE11B8941722C00000774CA8 /* CoreLocation.framework */; };
+		AE11B8971722C00700774CA8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE11B8961722C00700774CA8 /* QuartzCore.framework */; };
+		AE11B8991722C00E00774CA8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE11B8981722C00E00774CA8 /* libsqlite3.dylib */; };
+		AE11B89B1722C02000774CA8 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE11B89A1722C02000774CA8 /* pin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,13 @@
 		AE11B863172296EA00774CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE11B865172296EA00774CA8 /* OriginalMapScaffoldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OriginalMapScaffoldTests.h; sourceTree = "<group>"; };
 		AE11B866172296EA00774CA8 /* OriginalMapScaffoldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginalMapScaffoldTests.m; sourceTree = "<group>"; };
+		AE11B88F1722BFC400774CA8 /* LocalStandardMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalStandardMap.h; sourceTree = "<group>"; };
+		AE11B8901722BFC400774CA8 /* LocalStandardMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalStandardMap.m; sourceTree = "<group>"; };
+		AE11B8921722BFEE00774CA8 /* MapionMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapionMaps.framework; sourceTree = "<group>"; };
+		AE11B8941722C00000774CA8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AE11B8961722C00700774CA8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AE11B8981722C00E00774CA8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		AE11B89A1722C02000774CA8 /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +80,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE11B8991722C00E00774CA8 /* libsqlite3.dylib in Frameworks */,
+				AE11B8971722C00700774CA8 /* QuartzCore.framework in Frameworks */,
+				AE11B8951722C00000774CA8 /* CoreLocation.framework in Frameworks */,
 				AE11B833172296EA00774CA8 /* UIKit.framework in Frameworks */,
 				AE11B835172296EA00774CA8 /* Foundation.framework in Frameworks */,
 				AE11B837172296EA00774CA8 /* CoreGraphics.framework in Frameworks */,
+				AE11B8931722BFEE00774CA8 /* MapionMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +106,10 @@
 		AE11B826172296EA00774CA8 = {
 			isa = PBXGroup;
 			children = (
+				AE11B8981722C00E00774CA8 /* libsqlite3.dylib */,
+				AE11B8961722C00700774CA8 /* QuartzCore.framework */,
+				AE11B8941722C00000774CA8 /* CoreLocation.framework */,
+				AE11B8921722BFEE00774CA8 /* MapionMaps.framework */,
 				AE11B838172296EA00774CA8 /* OriginalMapScaffold */,
 				AE11B85F172296EA00774CA8 /* OriginalMapScaffoldTests */,
 				AE11B831172296EA00774CA8 /* Frameworks */,
@@ -126,6 +147,8 @@
 				AE11B850172296EA00774CA8 /* ViewController.h */,
 				AE11B851172296EA00774CA8 /* ViewController.m */,
 				AE11B839172296EA00774CA8 /* Supporting Files */,
+				AE11B88F1722BFC400774CA8 /* LocalStandardMap.h */,
+				AE11B8901722BFC400774CA8 /* LocalStandardMap.m */,
 			);
 			path = OriginalMapScaffold;
 			sourceTree = "<group>";
@@ -133,6 +156,7 @@
 		AE11B839172296EA00774CA8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE11B89A1722C02000774CA8 /* pin@2x.png */,
 				AE11B83A172296EA00774CA8 /* OriginalMapScaffold-Info.plist */,
 				AE11B83B172296EA00774CA8 /* InfoPlist.strings */,
 				AE11B83E172296EA00774CA8 /* main.m */,
@@ -240,6 +264,7 @@
 				AE11B849172296EA00774CA8 /* Default-568h@2x.png in Resources */,
 				AE11B84C172296EA00774CA8 /* MainStoryboard_iPhone.storyboard in Resources */,
 				AE11B84F172296EA00774CA8 /* MainStoryboard_iPad.storyboard in Resources */,
+				AE11B89B1722C02000774CA8 /* pin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +302,7 @@
 				AE11B83F172296EA00774CA8 /* main.m in Sources */,
 				AE11B843172296EA00774CA8 /* AppDelegate.m in Sources */,
 				AE11B852172296EA00774CA8 /* ViewController.m in Sources */,
+				AE11B8911722BFC400774CA8 /* LocalStandardMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +419,10 @@
 		AE11B86B172296EA00774CA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OriginalMapScaffold/OriginalMapScaffold-Prefix.pch";
 				INFOPLIST_FILE = "OriginalMapScaffold/OriginalMapScaffold-Info.plist";
@@ -404,6 +434,10 @@
 		AE11B86C172296EA00774CA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OriginalMapScaffold/OriginalMapScaffold-Prefix.pch";
 				INFOPLIST_FILE = "OriginalMapScaffold/OriginalMapScaffold-Info.plist";
@@ -465,6 +499,7 @@
 				AE11B86C172296EA00774CA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE11B86D172296EA00774CA8 /* Build configuration list for PBXNativeTarget "OriginalMapScaffoldTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +508,7 @@
 				AE11B86F172296EA00774CA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
