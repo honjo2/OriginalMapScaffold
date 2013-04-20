@@ -30,6 +30,7 @@
 		AE11B8971722C00700774CA8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE11B8961722C00700774CA8 /* QuartzCore.framework */; };
 		AE11B8991722C00E00774CA8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE11B8981722C00E00774CA8 /* libsqlite3.dylib */; };
 		AE11B89B1722C02000774CA8 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE11B89A1722C02000774CA8 /* pin@2x.png */; };
+		AE11B8AF1722D45900774CA8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AE11B8AE1722D45900774CA8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		AE11B8961722C00700774CA8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AE11B8981722C00E00774CA8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		AE11B89A1722C02000774CA8 /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin@2x.png"; sourceTree = "<group>"; };
+		AE11B8AE1722D45900774CA8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		AE11B826172296EA00774CA8 = {
 			isa = PBXGroup;
 			children = (
+				AE11B8AE1722D45900774CA8 /* README.md */,
 				AE11B8981722C00E00774CA8 /* libsqlite3.dylib */,
 				AE11B8961722C00700774CA8 /* QuartzCore.framework */,
 				AE11B8941722C00000774CA8 /* CoreLocation.framework */,
@@ -265,6 +268,7 @@
 				AE11B84C172296EA00774CA8 /* MainStoryboard_iPhone.storyboard in Resources */,
 				AE11B84F172296EA00774CA8 /* MainStoryboard_iPad.storyboard in Resources */,
 				AE11B89B1722C02000774CA8 /* pin@2x.png in Resources */,
+				AE11B8AF1722D45900774CA8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
